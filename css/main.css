@@ -169,21 +169,45 @@ nav a:focus {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* screen for tablet  */
 @media screen and (min-width: 43em){
 
   .sm{
     display: flex;
-    align-content: center;
-    /* not sure why content is not centering tried each one? */
+   
+  
     background-color: #E0FF8D ;
     align-content: space-between;
   }
 
-  .sm a {
+
+    
+    
+  
+
+  .sm{
+    justify-content: center;
     align-content: space-between;
-    /* cant get items to space between */
-  }
+  }  
 
 
 
@@ -206,6 +230,7 @@ nav a:focus {
    display: flex;
    flex-direction: row-reverse;
    background-color: #E0FF8D ;
+   justify-content: end;
   }
 
 }
