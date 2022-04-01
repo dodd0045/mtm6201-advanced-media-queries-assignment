@@ -196,7 +196,7 @@ nav a:focus {
    
   
     background-color: #E0FF8D ;
-    align-content: space-between;
+    
   }
 
 
@@ -205,8 +205,9 @@ nav a:focus {
   
 
   .sm{
-    justify-content: center;
-    align-content: space-between;
+   
+    justify-content: space-between;
+    
   }  
 
 
