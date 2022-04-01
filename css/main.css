@@ -159,10 +159,63 @@ nav a:visited {
   background-color: #E0FF8D;
   color: #222;
   font-size: 1.5rem;
+  
 }
 
 nav a:hover,
 nav a:focus {
   background-color: #968DFF;
   color: white;
+}
+
+
+/* screen for tablet  */
+@media screen and (min-width: 43em){
+
+  .sm{
+    display: flex;
+    align-content: center;
+    /* not sure why content is not centering tried each one? */
+    background-color: #E0FF8D ;
+    align-content: space-between;
+  }
+
+  .sm a {
+    align-content: space-between;
+    /* cant get items to space between */
+  }
+
+
+
+}
+
+
+/* screen for desktop */
+@media screen and (min-width: 62em){
+
+  html{
+    background-color: #1000c0;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sm{
+   display: flex;
+   flex-direction: row-reverse;
+   background-color: #E0FF8D ;
+  }
+
+}
+
+
+/* when light color scheme is chosen background will be white  */
+
+@media (prefers-color-scheme: light) {
+  html{
+    background-color: white;
+  }
+ 
 }
